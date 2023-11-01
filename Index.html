@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/9783530849.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 id="tHeader">Habit Tracker</h1>
+    <div id="inputbox">
+        <div class="info">
+            <p class="p1">
+                Tracker your habits the james clear Atomic habits behavior scorecard model.
+                Take a step closer to breaking free from bad habits by bringing them to your conscious mind everyday.
+                Categorize a behavior within a specific state. Try not judge yourself.<span
+                style="font-weight: bold; color: rgb(49, 59, 255);" id="user"></span>, simple act as an observer.
+                <p style="color: rgb(0, 0, 0); align-self: center;">"The difference between an amateur and a professional is in their habits. An amateur has amateur habits. 
+                A professional has professional habits."</p>
+            </p>
+        </div>
+        <div class="input-fields">
+            <label for="habit">Habit:</label>
+                <div id="inputs">
+                    <input id="habit" type="text" placeholder="Eg: Morning walk," value="" required>
+                    <input id="habitDate" type="date" min="" value="" required>
+                </div>
+                <label for="state">State:</label> <br>
+                <select name="" id="state" >
+                    <option value="">Positive</option>
+                    <option value="">Negative</option>
+                    <option value="">Neutral</option>
+                </select><br>
+                <div class="submit-field">
+                    <button id="smbtn">Submit</button><br>
+                </div>
+                <span id="message"></span>
+                <!-- </label> -->
+            </div>
+        </div>
+        <br>
+        <div id="habitList">
+            <div class="output">
+                <h3 class="habitHeader">Add to your list</h3>
+                <ul id="probody"></ul>
+                <div id="lists"></div>
+                <div id="clearBox">
+                    <button id="clear">Clear List</button>
+                    <button id="reset">Reset All Data</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="celebration">
+            <div class="celebrate">
+                <div class="f1">
+                    <span><i></i></span>
+                    <span><i></i></span>
+                    <span><i></i></span>
+                </div>
+                <div class="f2">
+                    <span><i></i></span>
+                    <span><i></i></span>
+                    <span><i></i></span>
+                </div>
+                <div class="f3">
+                    <span><i></i></span>
+                    <span><i></i></span>
+                    <span><i></i></span>
+                </div>
+                <div class="f4">
+                    <span><i></i></span>
+                    <span><i></i></span>
+                    <span><i></i></span>
+                </div>
+            </div><br>
+        </div>
+        <div id="congratulations"></div>
+        <script src="index.js"></script>
+</body>
+</html>
